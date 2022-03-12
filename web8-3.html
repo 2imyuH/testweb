@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tặng em nè</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+        }
+        header{height: 150px; width: 100%;position: relative;background-image: url(https://o.vdoc.vn/data/image/2021/02/22/banner-8-3-10.jpg);background-size: 100% 100% ;background-repeat: no-repeat;background-attachment: fixed;position: relative;}
+        .menu>li{line-height: 100px;float: left;width: 200px;list-style: none;text-indent: 20px;}
+        .menu>li>a{font-weight: 400;text-decoration: none;color: bisque;}
+        .menu>li:hover{background-color:cyan;transition: ease-in 0.30s;-moz-transition: ease-in 0.30s;-webkit-transition: ease-in 0.30s;}
+        li:hover>a{color:yellow ;font-weight: 900;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: initial;}
+        h2{text-align: center;color:bisque;font-weight: bold;}
+        .menu>li:hover .submenu{display: block;}
+        .submenu{height: 100px;width: 150px;background-color: cadetblue;display: none;}
+        .submenu>li{line-height: 100px;float: left;width: 200px;list-style: none;text-indent: 20px;}
+        .submenu>li>a{color: aliceblue;display: block;border-top:1px ;text-decoration: none;}
+        .submenu>li:hover{background-color:rgb(41, 199, 35);transition: ease-in 0.30s;-moz-transition: ease-in 0.30s;-webkit-transition: ease-in 0.30s;}
+        .submenu>li>a:hover{color:rgb(226, 75, 15) ;font-weight: 900;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-style: initial;}
+        ul.cuccung{display: flex;}
+        ul{list-style: none;}
+        ul.cuccung>li>a{text-decoration: none;}
+        #wrapper{display: flex;justify-content: center;}
+        .cuccung>li>a>img{max-width: 100%;transition: all 0.3S ease-in-out; height: 500px; width: 700px;display: block;}
+        .cuccung>li>a:hover img{transform: scale(1.1);opacity: 0.8;}
+        .cuccung li{overflow: hidden;}
+        .cuccung>li>a{position: relative;display: block;}
+        .cuccung li a .name{position: absolute;transition: all 0.3s ease-in-out;opacity: 0;;color: rgb(22, 22, 21);transform: translateX(-50%) ;font-weight: 900;letter-spacing: 2px;bottom: 0px;left: 50%;text-transform: uppercase;font-size: 30px;}
+        .cuccung>li>a:hover .name{bottom: 50%;opacity: 1;}
+        form:hover{color: black;}
+        form{color:bisque;text-align: center;font-weight: 900; font-size: medium;}
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <h2>CỤC VÀNG CỦA ANH 8/3 VUI VẺ NÈ :33</h2>
+            <ul class="menu">
+                <li><a href="">Yêu Anh Không ?</a>
+                <ul class="submenu">
+                    <li><a href="co.html">Có</a></li>
+                    <li><a href="khong.html">Không</a></li>
+                </ul>
+                </li>
+                <li><a href="video-1.html">Video của em nè</a></li>
+                <li><a href="video-2.html">Video của mình nè</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100009278829364">Ảnh</a></li>
+            </ul>
+            <form action="/web8-3.html" method="get" autocomplete="on">
+                <label for="a" type="">Yêu anh nhiều hông:</label><br>
+                <input type="text" id="a" name="a" placeholder="nhiều quá trời nhiều luôn"><br>
+              </form> 
+        </header>
+    </div>
+    <div id="wrapper">
+        <ul class="cuccung">
+            <li>
+                <a href="">
+                    <img src="E:\huy\testweb\img\cuccung.jpg" alt="" >
+                    <div class="name">Em nè</div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="E:\huy\testweb\img\namtay.jpg" alt="">   
+                    <div class="name">Hai đứa mình nè</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
